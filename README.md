@@ -52,13 +52,13 @@ python main.py
 ### 4. Standard Evaluation
 Evaluate the overall and Part-of-Speech (POS) accuracy of all generated `.out` files against the gold keys. This script outputs a formatted LaTeX table.
 ```bash
-python eval.py semeval2007.gold.key.txt *.out
+python eval.py semeval2007.gold.key.txt out/*
 ```
 
 ### 5. Polysemy-Binned Evaluation
 Evaluate the robustness of the models by grouping accuracy based on the number of candidate WordNet senses (Low, Medium, High). This script also outputs a formatted LaTeX table.
 ```bash
-python eval_polysemy.py semeval2007.data.xml semeval2007.gold.key.txt *.out
+python eval_polysemy.py semeval2007.data.xml semeval2007.gold.key.txt out/*
 ```
 
 ## Hardware and Performance
