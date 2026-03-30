@@ -61,5 +61,5 @@ Evaluate the robustness of the models by grouping accuracy based on the number o
 python eval_polysemy.py semeval2007.data.xml semeval2007.gold.key.txt out/*
 ```
 
-## Hardware and Performance
-All development and evaluation were conducted on Ubuntu (WSL2 via Windows 11) utilizing an Intel Core i9-14900K CPU and an MSI RTX 4070 Ti Super GPU (16GB VRAM). 
+## Hardware
+All development and evaluation were conducted on Ubuntu (WSL2 via Windows 11) using an Intel Core i9-14900K CPU and an MSI RTX 4070 Ti Super GPU (16GB VRAM). 
